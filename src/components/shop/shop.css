@@ -1,0 +1,84 @@
+.oyeoii__shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar)
+}
+
+.oyeoii__shop-content {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    color: #ffffff;
+}
+
+.oyeoii__shop-content p {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.oyeoii__shop-content h3 {
+    font-family: var(--font-family);
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+.oyeoii__shop-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+
+.oyeoii__shop-btn button {
+    padding: 1rem 1rem;
+    font-family: Poor Story;
+    color: #ffffff;
+    border-radius: 15px;
+    background: transparent;
+    line-height: 25px;
+    font-size: 30px;
+    background: rgba(166, 108, 180, 0.4);
+    cursor: pointer;
+    outline: none;
+
+    margin-right: 5px;
+
+}
+
+@media screen and (max-width: 650px) {
+    .oyeoii__shop {
+        flex-direction: column;
+    }
+
+    .oyeoii__shop-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .oyeoii__shop {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .oyeoii__shop-content h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .oyeoii__shop-btn button {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
